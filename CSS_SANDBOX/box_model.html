@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box-Model</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .box{
+background: rgb(177, 169, 169);
+border: 2px solid rgb(214, 22, 22);
+width: 500px;
+/* This padding is for all */
+padding: 10px;
+/* padding for sides top right bottom left */
+padding: 10px 20px 10px 20px;
+/* padding for two sides top/bottom right/left */
+padding : 10px 20px;
+/* margin allsides */
+margin:20px;  
+/* margin for sides top right bottom left */
+margin: 10px 20px 10px 20px;
+/* margin for two sides top/bottom right/left */
+margin : 10px 20px;
+}  
+.box h3{
+    padding-bottom: 10px;
+}  
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>BOX1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum reprehenderit libero reiciendis optio iusto commodi quis non natus aspernatur ut.</p>
+    </div>
+    <div class="box">
+        <h3>BOX2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsa ab quaerat doloremque quod non nostrum porro aspernatur mollitia nulla.</p>
+    </div>
+</body>
+</html>

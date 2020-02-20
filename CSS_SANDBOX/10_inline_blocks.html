@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inline_block</title>
+    <style>
+        /* this helps to add outer design to the nav bars */
+     /* ul{
+        border:2px solid pink;
+        border-radius:10px;
+        padding:10px 15px;
+        width:350px;
+        background: darkcyan;
+     } */
+     /* if we remove style on li the home about contact will be displayed as same as file:///C:/ANGULAR/angular%20repo/Angular/HTML_SANDBOX/09_id_class.html   this file */
+        li{
+        display:inline-block;       
+    }
+    li a{
+        padding-right: 20px;
+        text-decoration: none;
+        color:grey;
+        
+    }
+    img{
+        display:block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+.box{
+    /* we cannot use width with display:inline instead we need to use display:inline-block */
+    border: 2px solid grey;
+    padding:10px;
+    margin-bottom:10px;
+    width:30%;
+    display:inline-block;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul> 
+
+    <!-- This is similar to file:///C:/ANGULAR/angular%20repo/Angular/HTML_SANDBOX/09_id_class.html file  -->
+    <!-- <ul>
+        <li style="float:left; margin-right:0px;margin-left:80%;"><a href="#">Home</a></li>
+        <li style="margin-right:20px;float:left"><a href="#">About</a></li>
+        <li style="margin-left:90%"><a href="#">Contact</a></li>
+    </ul> -->
+    <br><br>
+    <img src="./img/water.jpg" alt="Water img">
+
+<div class="box">
+    <h3>Heading1</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab sapiente, quidem harum ex excepturi impedit labore cum libero reiciendis ullam.</p>
+</div>
+<div class="box">
+    <h3>heading2</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus tempore magni commodi molestiae asperiores aspernatur cumque consequatur quod animi?</p>
+</div>
+<div class="box">
+    <h3>heading3</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim alias voluptas quam veritatis nulla est, ipsam rem magnam quaerat nemo?</p>
+</div>
+   
+</body>
+</html>
