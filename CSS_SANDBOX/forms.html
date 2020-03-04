@@ -5,7 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>From Styling</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <style>
+    *{
+        box-sizing:border-box;
+        margin:0px;
+        padding:0px;
+    }
+    body{
+        font-family: 'Raleway',sans-serif;
+        background: #344a72;
+        color: #fff;
+        line-height: 1.8em;
+    }
+    a
+    { 
+        color:royalblue;
+        text-decoration: none;
+    }
+    a:hover{
+        color: red;
+    }
+    a:active{
+        color:black;
+    }
+    /* a:visited{
+        color:green;
+    } */
+    #container{
+        
+        margin: 30px auto;
+         max-width: 400px;
+         padding: 20px; 
+        
+    }
+
+    .form-wrap{
+        background-color: #fff;
+        color: #333;
+        padding:15px 20px;
+    }
+    .form-wrap h1,.form-wrap p{
+        text-align: center;
+    }
+    .form-wrap .Form-group{
+        margin-top: 15px;
+    }
+
+    .form-wrap .Form-group label{
+        display:block;
+        color: #666;
+    }
+    .form-wrap .Form-group input{
+        border: #ddd 2px solid;
+        width: 100%;
+        border-radius: 5px;
+        padding:10px;
+    }
+    .form-wrap button{
+        display:block;
+        width: 100%;
+        margin-top: 20px;
+        background-color:rgb(123, 218, 123);
+        color:#fff;
+        padding: 10px;
+        cursor:pointer;
+    }
+
+    .form-wrap button:hover{
+background-color:rgb(13, 231, 111);
+    }
+    .form-wrap .bottom-text{
+       margin-top: 15px; 
+       font-size: 14px;
+    }
+    footer{
+        text-align: center;
+        margin-top: 10px;
+    }
+    footer a{
+        color:rgb(115, 235, 115);
+    }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -34,9 +115,10 @@
      <input type="password" name="Confirm Password" id="Confirm Password">
     </div>
      <button type="submit" class="btn">Sign up</button>
-     <p>By clicking the sign up button you agree to our
-     <a href="#">Terms and conditions </a> and <a href="#">  sign up policy</a></p>
-     </div>
+     <p class="bottom-text">
+         By clicking the sign up button you agree to our
+     <a href="#">Terms and conditions </a> and <a href="#">  sign up policy</a>
+    </p>
     </form>
         </div>
         <footer>
