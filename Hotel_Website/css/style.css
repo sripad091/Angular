@@ -25,6 +25,46 @@ p{
     overflow: auto;
     padding: 0px 20px;
 }
+.text-primary{
+    color:#f7c08a;
+}
+.lead{
+    font-size: 20px;
+}
+.btn{
+    display:inline-block;
+    font-size:18px;
+    color:#fff;
+    padding:13px 20px;
+    border-radius:5px;
+    background:#333 ;
+    cursor:pointer;
+}
+.btn:hover{
+    background:#f7c08a;
+    color:#333;
+}
+.btn-light{
+    background: #507775;
+    color:rgb(180, 173, 173);
+}
+.bg-dark{
+    background:#333;
+    color:#fff;
+}
+.bg-light{
+    background: #f4f4f4;
+    color:#333;
+}
+.bg-primary{
+    color: #333;
+    background:#f7c08a;
+}
+
+.clr{
+    clear:both;
+}
+
 /* Navbar */
 #navbar{
 background: #333;
@@ -55,6 +95,64 @@ float:left;
     background: #444;
     color:#f7c09a;
 }
+/* showcase */
+
+#showcase{
+    background: url('../img/view-of-tourist-resort-338504.jpg') no-repeat center center/cover ;
+    height: 600px;
+}
+#showcase .showcase-content{
+    text-align: center;
+    color:#fff;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height:1.7em;
+}
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+float:left;
+width:50%;
+background: url('../img/architecture-hall-hallway-interior-design-53464.jpg') no-repeat center/cover;
+min-height:100%;
+}
+
+#home-info .info-content{
+    float:right;
+    width:50%;
+    text-align:center;
+    height: 100%;
+    padding: 50px 30px;
+    overflow:auto;
+}
+
+#home-info .info-content p{
+    padding-bottom:30px;
+}
+.box{
+    float:left;
+    width:33.3%;
+    padding:50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom:10px;
+}
+#main-footer{
+    text-align:center;
+    background: #444;
+    padding:20px;
+    color:#fff;
+}
+
 
 
 
