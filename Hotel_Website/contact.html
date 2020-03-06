@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Welcome to the most extraordinary hotel in Hyderabad">
+    <meta name="Keyword" content="Hotel Hyderabad">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1cb40ea1d2.js" crossorigin="anonymous"></script>
+    <title>Hotel IN | Contact</title>
+</head>
+<body>
+    <header>
+        
+    <nav id="navbar">
+        <div class="container">
+            <a href="index.html"><img src="./img/ratan-tata.jpg" alt="Chairman"> </a> 
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+        </div>    
+    </nav>
+    </header>
+
+    <section id="contact-form">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p><span class="text-primary">Please</span> fill the below mention form to contact us</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter your Name" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="LastName">LastName</label>
+                    <input type="text" name="LastName" placeholder="enter your surname" id="LastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" placeholder="xxxxxxxxx@gmail.com" id="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" ></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Password1">Password</label>
+                    <input type="password" name="Password1"  id="Password1" required>
+                </div>
+                <div class="form-group">
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input type="password" name="Confirm Password" id="Confirm Password" required>
+                </div>
+                <div class="check-box">
+                    <input type="checkbox" name="Likes" id="Likes" value="bus" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+        <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3> Location</h3>
+            <p>Kukatpally ,Near Jntu Hyderabad</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3>Phone Number</h3>
+            <p>(+91 923-456-789)</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email Address</h3>
+            <p>helpdesc.tcs@tcs.com</p>
+        </div>
+        </div>
+    </section>
+    
+    
+<footer id="main-footer">Hotel IN &copy;2019 All Rights Reserved</footer>
+</body>
+</html>
