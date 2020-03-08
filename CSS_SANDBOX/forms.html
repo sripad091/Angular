@@ -99,23 +99,23 @@ background-color:rgb(13, 231, 111);
      <form>
          <div class="Form-group">
             <label for="FirstName">FirstName</label>
-            <input type="text" name="FirstName" placeholder="enter your Name" id="FirstName">
+            <input type="text" name="FirstName" placeholder="enter your Name" id="FirstName" required>
          </div>
      <div class="Form-group">
      <label for="LastName">LastName</label>
-     <input type="text" name="LastName" placeholder="enter your surname" id="LastName">
+     <input type="text" name="LastName" placeholder="enter your surname" id="LastName" required>
     </div>
      <div class="Form-group">
      <label for="Email">Email</label>
-     <input type="email" name="Email" placeholder="xxxxxxxxx@gmail.com" id="Email">
+     <input type="email" name="Email" placeholder="xxxxxxxxx@gmail.com" id="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
     </div>
      <div class="Form-group">
      <label for="Password1">Password</label>
-     <input type="password" name="Password1" id="Password1" id="Password1">
+     <input type="password" name="Password1" id="Password1" id="Password1" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
     </div>
      <div class="Form-group">
      <label for="Confirm Password">Confirm Password</label>
-     <input type="password" name="Confirm Password" id="Confirm Password">
+     <input type="password" name="Confirm Password" id="Confirm Password" minlength="8" required>
     </div>
      <button type="submit" class="btn">Sign up</button>
      <p class="bottom-text">
