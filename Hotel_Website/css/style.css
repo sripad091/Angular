@@ -9,8 +9,7 @@ html,body{
 }
 a{
     color:#333;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 /* .logo a{
     background: url('../img/view-of-tourist-resort-338504.jpg') no-repeat center center/cover ;
@@ -94,22 +93,44 @@ background: #333;
 color: #fff;
 overflow: auto;
 }
-
+@media only screen and (max-width: 1200px) {
+    #navbar {
+      background: lightblue;
+    }
+  }
+  
+  
 #navbar a{
     color:#fff;
 }
+
 #navbar h1{
     float:left;
     padding-top:20px;
+    margin-right: 20px;
 }
 #navbar img{
+    float: left;
     width:50px;
     margin:10px;
 }
+
+@media only screen and (max-width: 500px) {
+    #navbar h1{
+      background: lightblue;
+      
+      margin-left: 120px;
+    }
+  }
 #navbar ul{
-    float: right;
+    float: left;
     list-style: none;
 }
+@media only screen and (max-width: 500px) {
+    #navbar ul{
+      margin-left: 50px;
+    }
+  }
 #navbar ul li{
 float:left;
 }
@@ -118,10 +139,27 @@ float:left;
     padding:20px;
     text-align: center;
 }
+
 #navbar ul li a:hover,#navbar ul li a.current{
     background: #444;
     color:#f7c09a;
 }
+@media only screen and (max-width: 1200px) {
+    #navbar ul li a:hover,#navbar ul li a.current {
+        background: rgb(132, 215, 221);
+        color: #fff;
+     }
+   }
+#navbar input[type=text] {
+    float: right;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 250px;
+    margin-top: 17px;
+    margin-right: 16px;
+    font-size: 15px;
+  }
 /* showcase */
 
 #showcase{
@@ -201,6 +239,17 @@ padding-top:5px;
      border-radius:50%; 
     padding-left:15px;
 }
+@media only screen and (max-width: 500px) {
+    #about-info .info-right img{
+        display: block; /* this will helps to make margin work as default is inline*/
+        width:150px;
+        margin:auto;
+        margin-top:150px;
+        padding-bottom:10px;
+         border-radius:50%; 
+        padding-left:15px;
+    }
+  }
 #about-info .info-left{
     float:left;
     width:50%;
