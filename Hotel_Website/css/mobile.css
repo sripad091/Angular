@@ -1,0 +1,85 @@
+#navbar h1{
+    float:none;
+    text-align:center;
+    margin:auto;
+}
+
+#navbar img{
+    float: none;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+#navbar ul,#navbar ul li{
+    float:none;
+}
+
+#navbar ul li a{
+    padding:5px;
+    border-bottom:#444 dotted 1px;
+}
+#navbar input[type=text] {
+    float: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 17px;
+    margin:auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+/* Show case */
+
+#showcase{
+    height:100%;
+   
+}
+#showcase .showcase-content{
+    padding-top:70px;
+    padding-bottom:30px;
+}
+/* Home info*/
+#home-info .info-img{
+    display:none;
+}
+
+#home-info .info-content{
+    float:none;
+    width: 100%;
+}
+
+.box{
+    float:none;
+    width:100%;
+}
+/* About */
+
+#about-info .info-right,
+#about-info .info-left{
+    float:none;
+    width:100%;
+}
+#about-info .info-right{
+    margin-top:30px;
+
+}
+.l-heading{
+    text-align: center;
+}
+#about-info .info-right img
+{
+    padding-bottom:30px;
+}
+
+/* Contact */
+
+#contact-info .box{
+    border-bottom: #444 dotted 1px;
+}
+
+
+
+

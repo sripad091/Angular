@@ -74,6 +74,7 @@ p{
 }
 .l-heading{
 font-size:40px;
+line-height:1.2; 
 }
 
 /* padding */
@@ -126,11 +127,11 @@ overflow: auto;
     float: left;
     list-style: none;
 }
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     #navbar ul{
       margin-left: 50px;
     }
-  }
+  } */
 #navbar ul li{
 float:left;
 }
@@ -144,12 +145,12 @@ float:left;
     background: #444;
     color:#f7c09a;
 }
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
     #navbar ul li a:hover,#navbar ul li a.current {
         background: rgb(132, 215, 221);
         color: #fff;
      }
-   }
+   } */
 #navbar input[type=text] {
     float: right;
     padding: 7px;
@@ -180,7 +181,7 @@ float:left;
     line-height:1.7em;
 }
 #home-info{
-    height: 400px;
+    height: 450px;
     
 }
 #home-info .info-img{
@@ -239,9 +240,9 @@ padding-top:5px;
      border-radius:50%; 
     padding-left:15px;
 }
-@media only screen and (max-width: 500px) {
+ /* @media only screen and (max-width: 500px) {
     #about-info .info-right img{
-        display: block; /* this will helps to make margin work as default is inline*/
+        display: block; 
         width:150px;
         margin:auto;
         margin-top:150px;
@@ -249,7 +250,7 @@ padding-top:5px;
          border-radius:50%; 
         padding-left:15px;
     }
-  }
+  }  */
 #about-info .info-left{
     float:left;
     width:50%;
@@ -265,7 +266,7 @@ padding-top:5px;
 /* Testimonials */
 #testimonials{
     background: url('../img/black-and-grey-bedspread-on-bed-and-pillow-164595.jpg') no-repeat center center/cover;
-    height:auto;
+    height:100%;
     padding-top:40px;
 }
 #testimonials h2{
