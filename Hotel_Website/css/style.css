@@ -145,12 +145,12 @@ float:left;
     background: #444;
     color:#f7c09a;
 }
-/* @media only screen and (max-width: 1200px) {
+ @media only screen and (max-width: 1200px) {
     #navbar ul li a:hover,#navbar ul li a.current {
         background: rgb(132, 215, 221);
         color: #fff;
      }
-   } */
+   }
 #navbar input[type=text] {
     float: right;
     padding: 7px;
@@ -315,6 +315,10 @@ padding-top:5px;
     width:2%;
     float:left;
     margin: 10px;
+}
+
+button{
+    margin-bottom: 10px;
 }
 
 
