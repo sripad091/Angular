@@ -6,6 +6,7 @@
 html,body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+   
 }
 a{
     color:#333;
@@ -90,6 +91,9 @@ line-height:1.2;
 
 /* Navbar */
 #navbar{
+    /* This will make thst nav bar position as fixed */
+    /* position:sticky;
+    top:0; */
 background: #333;
 color: #fff;
 overflow: auto;
@@ -258,7 +262,7 @@ padding-top:5px;
     min-height:100%;
     background: #444;
     color:#fff;
-    padding-bottom:62px;
+    padding-bottom:40px;
     margin:10px 0px;
     padding-left:20px;
 }
