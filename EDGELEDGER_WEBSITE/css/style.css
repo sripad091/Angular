@@ -152,7 +152,7 @@ padding: 1.5rem 0;
     padding: 0 2rem;
     /* overlay */
     position:absolute;
-    top: 61px;
+    top: 65px;
     left:0px;
     right:0px;
     bottom: 0px;
@@ -213,10 +213,11 @@ padding: 1.5rem 0;
 
 #contact .map, #contact .contact-form{
     flex:1;
+    /* flex-basis: auto; */
 }
 
 #contact .contact-form .form-group{
-    margin:0.75rem;
+    margin:0.5rem;
 }
 #contact .contact-form label{
     display:block;

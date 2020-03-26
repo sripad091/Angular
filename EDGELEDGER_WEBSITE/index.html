@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/1cb40ea1d2.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
 
     <link rel="stylesheet" media="screen and (min-width:1100px)"href="css/widescreen.css">
 
-    <link rel="stylesheet" href="css/style.css">
     <title>EdgeLedger Financial | Accounting & Investment</title>
 </head>
 <body id="home">
@@ -18,8 +17,7 @@
     <nav id="navbar">
         <h1 class="logo">
             <span class="text-primary">
-                <i class="fas fa-book-open"></i>Edge
-            </span>Ledger
+                <i class="fas fa-book-open"></i>Edge</span>Ledger
         </h1>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -33,7 +31,7 @@
 <header id="showcase">
     <div class="showcase-content">
        <h1 class="l-heading">
-           The Sky is the limit
+           Sripad Dyavarshetty
        </h1> 
        <p class="lead">
            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellat repellendus magnam distinctio dolorem voluptatum?
@@ -119,31 +117,29 @@
 <!-- Section :Contact -->
 <section id="contact">
    <div class="contact-form bg-primary p-2">
-<h2 class="m-heading">Contact Us</h2>
-<p>Please use the form below to contact us</p>
-<form>
-<div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Enter Name" required>
-</div>
-<div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email" placeholder="Enter Email Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-</div>
-<div class="form-group">
-    <label for="phone">PhoneNumber</label>
-    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number" required>
-</div>
-<div class="form-group">
-    <label for="message">Message</label>
-   <textarea name="message" id="message" placeholder="Enter Message"></textarea>
-</div>
-<input type="submit" value="Send" class="btn btn-dark">
-</form>
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form>
+           <div class="form-group">
+               <label for="name">Name</label>
+               <input type="text" name="name" id="name" placeholder="Enter Name" required>
+           </div>
+           <div class="form-group">
+               <label for="email">Email</label>
+               <input type="email" name="email" id="email" placeholder="Enter Email Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.     [a-z]{2,}      $" required>
+           </div>
+           <div class="form-group">
+               <label for="phone">PhoneNumber</label>
+               <input type="text" name="phone" id="phone" placeholder="Enter Phone Number" required>
+           </div>
+           <div class="form-group">
+               <label for="message">Message</label>
+              <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+           </div>
+      <input type="submit" value="Send" class="btn btn-dark">
+      </form>
    </div>
-   <div class="map">
-
-   </div>
+   <div class="map"></div>
 </section>
 <!-- Footer -->
 <footer id="main-footer" class="bg-dark text-center py-1">
@@ -151,7 +147,12 @@
         <p>Copyright &copy; 2020, EdgeLedger,All Rights Reserved</p>
     </div>
 </footer>
-
+<!-- Jquery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<!-- Local js file -->
  <script src="js/main.js"></script> 
 <!-- This script has got from google map docs -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSngI9LOXN6xp2HthB9HnpKb-VTvBknLY&callback=initMap"
