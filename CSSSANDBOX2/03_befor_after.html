@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before & after</title>
+    <style>
+       body{
+           font-family:Arial, Helvetica, sans-serif;
+           background: #333;
+           color:#fff;
+           margin:0;
+       }
+
+       header {
+           display:flex;
+           flex-direction:column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           height:100vh; 
+
+           background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover; 
+
+           opacity:0.4;
+       }
+
+       header:before { 
+          content:'';
+           background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover; 
+
+           opacity:0.7;
+           position: absolute;
+           top:0;
+           left:0;
+           height:100%;
+           width:100%;
+           z-index:-1;
+
+       }
+
+       header > h1{
+           font-size:4rem;
+           margin:1rem;
+       }
+        .is-required:after {
+            content:'*';
+            color:red;
+            padding-left:2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <label class="is-required" for="name">Name</label>
+    <input type="text">  -->
+    <header>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, quisquam!</p>
+    </header>
+
+    <section>
+        <h3>Lorem3</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis molestiae repudiandae tenetur laudantium, ipsum perspiciatis ea placeat labore nisi dolor numquam autem deleniti voluptas fugit deserunt iste veritatis doloremque iure!</p>
+    </section>
+</body>
+
+</html>
