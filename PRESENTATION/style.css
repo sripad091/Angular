@@ -94,7 +94,6 @@ animation:heading var(--animate-speed) forwards ease-in;
 }
 @keyframes text {
     to {
-        
         transform:translateX(0);
     }
 }
